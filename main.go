@@ -117,7 +117,7 @@ func startServer(ctx *cli.Context) {
 	}
 
 	initPolyServer(servConfig, polySdk, ethereumsdk, boltDB)
-	initETHServer(servConfig, polySdk, ethereumsdk, boltDB)
+	//initETHServer(servConfig, polySdk, ethereumsdk, boltDB)
 	waitToExit()
 }
 
